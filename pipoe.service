@@ -1,0 +1,12 @@
+[Unit]
+Description=runs only upon shutdown
+Before=poweroff.target
+
+[Service]
+Type=idle
+ExecStart=/bin/true
+ExecStop=/storage/.config/pipoe/removepower.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
