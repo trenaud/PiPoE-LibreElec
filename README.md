@@ -1,5 +1,5 @@
 # PiPoE-LibreElec
-PiPoE scripts &amp; how-to adapted for LibreElec
+PiPoE scripts &amp; how-to adapted for LibreElec. Inspired by https://github.com/PiSupply/PiPoE
 
 1) install "Raspberry Pi Tools" addon for kodi
 
